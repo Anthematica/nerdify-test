@@ -65,3 +65,56 @@ header .menu-button {
     background-repeat: no-repeat;
     margin-left: 10px;
 }
+
+main {
+    display: grid;
+    grid-template-rows: 200px 150px;
+    justify-items: center;
+    align-items: center;
+}
+
+.container-left {
+    width: 90%;
+}
+
+.container-left h1 {
+    font-size: 2.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.container-left p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    width: 140px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 6px 0 #20212447;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+}
+.buttons span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../assets/icons/right-arrow.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.container-right p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.container-right h2 {
+    font-size: 2.1rem;
+    font-weight: bold;
+}
