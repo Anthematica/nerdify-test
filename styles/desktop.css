@@ -4,3 +4,12 @@ main {
     grid-template-rows: none;
     justify-content: flex-start; 
 }
+
+.text-features {
+    margin-left: 60px;
+}
+
+footer ul {
+    margin-left: 60px;
+    justify-content: flex-start;
+}
