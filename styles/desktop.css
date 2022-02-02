@@ -13,3 +13,7 @@ footer ul {
     margin-left: 60px;
     justify-content: flex-start;
 }
+
+.text-features {
+    text-align: start;
+}
