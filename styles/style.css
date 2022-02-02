@@ -118,3 +118,94 @@ main {
     font-size: 2.1rem;
     font-weight: bold;
 }
+
+.container-right sub {
+    font-size: 1.1rem;
+}
+
+.text-features {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer li {
+    margin-left: 8px; 
+    margin-bottom: 8px;
+}
+
+.features div {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.features span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sink span {
+    background-image: url('../assets/icons/sink.png');
+}
+.closet span {
+    background-image: url('../assets/icons/closet.png');
+}
+.wifi span {
+    background-image: url('../assets/icons/wifi.png');
+}
+.umbrella span {
+    background-image: url('../assets/icons/umbrella.png');
+}
+.television span {
+    background-image: url('../assets/icons/television.png');
+}
+.desktop span {
+    background-image: url('../assets/icons/desktop.png');
+}
+.oven span {
+    background-image: url('../assets/icons/oven.png');
+}
+
+
+.see-more a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.see-more span {
+    background-image: url('../assets/icons/right-arrow.png');
+    margin-left: 10px;
+}
